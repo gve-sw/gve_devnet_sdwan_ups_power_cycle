@@ -1,0 +1,12 @@
+trigger:
+  interval: 60
+  count: 5
+sites:
+  100:
+    color: public-internet
+    ups: 10.10.10.10
+    outlet: 2
+  200:
+    color: biz-internet
+    ups: 20.20.20.20
+    outlet: 2
